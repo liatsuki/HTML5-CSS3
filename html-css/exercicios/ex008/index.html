@@ -4,59 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formatação de Textos</title>
+
+    <style>
+        mark {
+            background-color: limegreen;
+        }
+    </style>
+
 </head>
 <body>
+
     <h1>Principais formatações</h1>
+
     <h2>Negrito / Destaque</h2>
     <p>Nesta frase temos um <b>termo em negrito</b> usando a tag B (não semântica).</p>
     <p>Nesta frase, tenho um <strong>termo em destaque</strong> usando a tag STRONG (semântica).</p>
-
-    <!-- 
-        
-    <b> (Não Semântica):
-
-    A tag <b> é usada para aplicar negrito ao texto, mas não adiciona significado semântico adicional. É puramente uma escolha de estilo visual.
-
-Exemplo:
-<p>Nesta frase temos um <b>termo em negrito</b> usando a tag B (não semântica).</p>
-Neste exemplo, o <b> é usado apenas para aplicar negrito ao texto "termo em negrito", sem fornecer qualquer informação adicional sobre a importância ou significado desse termo no contexto.
-
-
-    <strong> (Semântica):
-
-    A tag <strong> também é usada para aplicar negrito, mas ela tem uma conotação semântica, indicando que o texto dentro dela é de importância forte ou enfática.
-
-Exemplo:
-<p>Nesta frase, tenho um <strong>termo em destaque</strong> usando a tag STRONG (semântica).</p>
-Aqui, o <strong> não apenas aplica negrito, mas também sugere que "termo em destaque" é semanticamente mais importante ou enfatizado no contexto da página. É uma escolha significativa para indicar que esse termo tem um peso especial.
-
-
-Em resumo, enquanto ambos os exemplos resultam em texto em negrito, o segundo exemplo com <strong> é preferido em situações em que você deseja destacar algo com importância semântica, pois fornece mais informação ao navegador, mecanismos de busca e dispositivos de acessibilidade sobre o significado do texto destacado.
--->
-
 
     <h2>Itálico / Ênfase</h2>
     <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semântica).</p>
     <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântica) - <em>emphasis</em>.</p>
 
-    <!--
-        <i> (Não Semântica):
-        - A tag <i> é usada para aplicar estilo itálico ao texto, mas, assim como a tag <b>, ela não fornece informação semântica adicional.
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também <mark>um texto marcado</mark> usando a tag MARK.</p>
+    <p>Podemos criar também <mark style="background-color: lime;">um texto marcado</mark> usando a tag MARK.</p>
+    <p>E no outro parágrafo, temos <mark>outro texto marcado</mark> no final.</p>
 
-   Exemplo:
-   <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semântica).</p>
-   Aqui, o `<i>` é utilizado apenas para aplicar estilo itálico ao texto "termo em itálico", sem indicar qualquer significado especial ou importância ao termo.
-
-
-        <em>` (Semântica):
-        - A tag `<em>` é usada para indicar ênfase no texto. Embora também aplique estilo itálico por padrão, a principal diferença é que `<em>` carrega um significado semântico, indicando que o texto dentro dela é enfático ou deve ser lido com ênfase.
-
-   Exemplo:
-   <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântica).</p>
-   No segundo exemplo, além de aplicar itálico, o `<em>` sugere que "termo em ênfase" é semanticamente mais significativo ou enfatizado no contexto da página. O uso de `<em>` é preferível quando a ênfase é a intenção, em vez de apenas aplicar estilo itálico por razões visuais.
-
-Portanto, ao escolher entre `<i>` e `<em>`, é aconselhável utilizar `<em>` quando a ênfase ou importância semântica é desejada, e `<i>` quando o estilo itálico é necessário apenas para fins visuais sem uma ênfase semântica associada.
--->
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo.</p> <!-- A tag BIG está obsoleta -->
 
 </body>
 </html>
