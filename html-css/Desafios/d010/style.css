@@ -26,7 +26,7 @@ header > p {
     text-align: center;
 }
 
-a.menu {
+.menu {
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -36,11 +36,6 @@ a.menu {
 a.menu:hover {
     text-decoration: underline;
 }
-
-/*
-nav {
-    color: white;
-} */
 
 main {
     margin: 0px 50px;
@@ -79,14 +74,13 @@ p {
     font-weight: bold;
 }
 
-/*
 .link {
     font-weight: bold;
     background-color: #2FA866;
     color: #063D1E;
     text-decoration-line: none;
     padding: 3px;
-} */
+} 
 
 img {
     width: 100%;
