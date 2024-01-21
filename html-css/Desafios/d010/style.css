@@ -10,23 +10,37 @@ body {
 
 header {
     background-image: linear-gradient(to bottom, #3DDC84, #063D1E);
-    color: white;
     box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+    color: white;
+    padding: 30px 10px 10px 10px;
 }
 
 header > h1 {
     font-family: 'Bebas Neue', cursive;
     font-weight: normal;
     text-align: center;
+    margin: 0px;
 }
 
 header > p {
     text-align: center;
 }
 
-header > nav > a {
+a.menu {
     color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
 }
+
+a.menu:hover {
+    text-decoration: underline;
+}
+
+/*
+nav {
+    color: white;
+} */
 
 main {
     margin: 0px 50px;
@@ -78,13 +92,14 @@ img {
     width: 100%;
 }
 
+/*
 a {
     font-weight: bold;
     background-color: #3DDC84;
     color: #063D1E;
     text-decoration-line: none;
     padding: 3px 5px;
-}
+} */
 
 #videoandroid {
     background-color: #063D1E;
