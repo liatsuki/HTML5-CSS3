@@ -10,7 +10,8 @@ body {
 
 header {
     background-image: linear-gradient(to bottom, #3DDC84, #063D1E);
-    color: white;  
+    color: white;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
 }
 
 header > h1 {
@@ -33,6 +34,7 @@ main {
     background-color: white;
     text-align: justify;
     border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
 }
 
 @font-face {
@@ -92,6 +94,7 @@ a {
 aside {
     border-radius: 10px;
     background-color: #83E1AD;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
 }
 
 .asideheader {
