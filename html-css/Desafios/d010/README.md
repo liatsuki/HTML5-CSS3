@@ -5,4 +5,4 @@ https://github.com/gustavoguanabara/html-css/tree/master/desafios/modulo-02/d010
 
 https://www.youtube.com/watch?v=xS2D9x8odoE&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=30&t=186s
 
-(image.png)
+![image](image.png)
