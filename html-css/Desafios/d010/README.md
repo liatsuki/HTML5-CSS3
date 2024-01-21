@@ -2,6 +2,10 @@
 
 ![image](image.png)
 
+### Cores
+
+![palette](palette-1.png)
+
 ### Links Importantes
 
 https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/17%20-%20Primeiro%20mini-projeto.pdf
