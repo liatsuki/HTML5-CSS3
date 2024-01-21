@@ -1,4 +1,4 @@
-# HTML5-CSS3
+# DESAFIO do Módulo 2 - HTML5-CSS3
 
 ![image](image.png)
 
