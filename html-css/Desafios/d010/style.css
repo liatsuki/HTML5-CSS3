@@ -48,8 +48,9 @@ h2 {
 h3 {
     font-family: 'IDroid', sans-serif;
     font-weight: normal;
-    color: #2FA866;
+    color: #063D1E;
     background-image: linear-gradient(to right, #83E1AD, #C5EBD6);
+    padding: 5px;
 }
 
 p {
@@ -59,4 +60,16 @@ p {
 .destaque {
     color: #2FA866;
     font-weight: bold;
+}
+
+.link {
+    font-weight: bold;
+    background-color: #2FA866;
+    color: #063D1E;
+    text-decoration: none;
+    padding: 3px;
+}
+
+img {
+    width: 100%;
 }
