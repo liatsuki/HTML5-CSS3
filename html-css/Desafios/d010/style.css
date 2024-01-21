@@ -29,7 +29,7 @@ header > nav > a {
 
 main {
     margin: 0px 50px;
-    padding: 10px 30px;
+    padding: 10px 20px;
     background-color: white;
     text-align: justify;
     border-radius: 0px 0px 10px 10px;
@@ -84,6 +84,11 @@ a {
     padding: 3px 5px;
 }
 
+#videoandroid {
+    background-color: #063D1E;
+    padding: 30px;
+}
+
 aside {
     border-radius: 10px;
     background-color: #83E1AD;
@@ -95,7 +100,7 @@ aside {
     color: white;
     border-radius: 10px 10px 0px 0px;
     margin-bottom: 0px;
-    margin-top: 0px;
+    margin-top: 10px;
 }
 
 .asidebody {
