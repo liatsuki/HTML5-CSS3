@@ -39,9 +39,8 @@ a.menu:hover {
 
 main {
     margin: 0px 50px;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     background-color: white;
-    text-align: justify;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
 }
@@ -54,19 +53,21 @@ main {
 h2 {
     font-family: 'IDroid', sans-serif;
     font-weight: normal;
-    color: #2FA866;
+    color: #1E5E3C;
+    margin-top: 0px;
 }
 
 h3 {
     font-family: 'IDroid', sans-serif;
     font-weight: normal;
-    color: #063D1E;
+    color: #1E5E3C;
     background-image: linear-gradient(to right, #83E1AD, #C5EBD6);
     padding: 5px;
 }
 
 p {
-    text-indent: 30px; 
+    text-indent: 30px;
+    text-align: justify; 
 }
 
 .destaque {
@@ -84,7 +85,7 @@ p {
 
 img {
     width: 100%;
-}
+} 
 
 /*
 a {
@@ -104,23 +105,44 @@ aside {
     border-radius: 10px;
     background-color: #83E1AD;
     box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+    margin: 20px 30px 20px 30px;
 }
 
 .asideheader {
     background-color: #2FA866;
-    padding: 5px 10px;
     color: white;
     border-radius: 10px 10px 0px 0px;
-    margin-bottom: 0px;
-    margin-top: 10px;
+    padding: 10px;
+    margin: 0px;
+} 
+
+article {
+    padding: 0px 0px 10px 0px;
+}
+
+.padding {
+    padding: 30px 30px 5px 30px;
+}
+
+.padding2 {
+    padding: 0px 30px;
 }
 
 .asidebody {
-    padding: 0px 10px 5px 10px;
+    padding: 0px 20px 5px 20px;
+}
+
+.ultima {
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 footer {
     background-color: #063D1E;
     color: white;
     text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
