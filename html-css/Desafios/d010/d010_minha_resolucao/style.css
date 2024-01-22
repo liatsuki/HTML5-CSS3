@@ -67,7 +67,10 @@ h3 {
 
 p {
     text-indent: 30px;
-    text-align: justify; 
+    text-align: justify;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
 }
 
 .destaque {
@@ -117,7 +120,8 @@ aside {
 } 
 
 article {
-    padding: 0px 0px 10px 0px;
+    padding: 0px 0px 25px 0px;
+    margin-bottom: 20px;
 }
 
 .padding {
@@ -140,5 +144,4 @@ article {
 footer {
     background-color: #063D1E;
     color: white;
-    text-align: center;
 }
