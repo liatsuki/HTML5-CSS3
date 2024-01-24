@@ -24,6 +24,7 @@ h1 {
     margin: 0px;
     padding: 10px;
     font-size: 7vw;
+    font-variant: small-caps;
 }
 
 header > p {
@@ -32,13 +33,13 @@ header > p {
     font-size: 1.7vw;
 }
 
-header a {
+header a, footer a {
     font-weight: bold;
     text-decoration: none;
     color: white;
 }
 
-header a:hover {
+header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
@@ -95,14 +96,4 @@ footer > p {
     color: white;
     text-align: center;
     font-size: 0.7em;
-}
-
-footer a {
-    font-weight: bold;
-    text-decoration: none;
-    color: white;
-}
-
-footer a:hover {
-    text-decoration: underline;
 }
