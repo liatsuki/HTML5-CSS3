@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            /*border-collapse: collapse;*/
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        thead, tfoot {
+            background-color: #383838;
+            color: white;
+        }
+
+        thead > tr > th { /* Cabeçalho Fixo */ 
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
+        tbody > tr:nth-child(odd) { /* 2n-1 (impar) */
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(even) { /* 2n (par) */
+            background-color: lightgray;
+        }
+
+        td.num {
+            text-align: right;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!-- 
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE 
+            CAPTION - legenda da tabela (titulo)
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+
+    <table>
+
+        <caption>População Total dos Distritos</caption>
+
+        <thead>
+            <tr>
+                <th scope="col">Distrito</th>
+                <th scope="col" style="width: 50px;">Habitantes</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Lisboa</td>
+                <td class="num">2 301 904</td>
+            </tr>
+            <tr>
+                <td>Porto</td>
+                <td class="num">1 819 515</td>
+            </tr>
+            <tr>
+                <td>Setúbal</td>
+                <td class="num">887 928</td>
+            </tr>
+            <tr>
+                <td>Braga</td>
+                <td class="num">854 416</td>
+            </tr>
+            <tr>
+                <td>Aveiro</td>
+                <td class="num">712 995</td>
+            </tr>
+            <tr>
+                <td>Faro</td>
+                <td class="num">472 000</td>
+            </tr>
+            <tr>
+                <td>Leiria</td>
+                <td class="num">467 139</td>
+            </tr>
+            <tr>
+                <td>Santarém</td>
+                <td class="num">433 782</td>
+            </tr>
+            <tr>
+                <td>Coimbra</td>
+                <td class="num">411 450</td>
+            </tr>
+            <tr>
+                <td>Viseu</td>
+                <td class="num">362 040</td>
+            </tr>
+            <tr>
+                <td>Madeira</td>
+                <td class="num">253 259</td>
+            </tr>
+            <tr>
+                <td>Açores</td>
+                <td class="num">239 942</td>
+            </tr>
+            <tr>
+                <td>Viana do Castelo</td>
+                <td class="num">232 220</td>
+            </tr>
+            <tr>
+                <td>Vila Real</td>
+                <td class="num">184 525</td>
+            </tr>
+            <tr>
+                <td>Castelo Branco</td>
+                <td class="num">177 719</td>
+            </tr>
+            <tr>
+                <td>Évora</td>
+                <td class="num">152 853</td>
+            </tr>
+            <tr>
+                <td>Beja</td>
+                <td class="num">146 725</td>
+            </tr>
+            <tr>
+                <td>Guarda</td>
+                <td class="num">141 261</td>
+            </tr>
+            <tr>
+                <td>Bragança</td>
+                <td class="num">122 218</td>
+            </tr>
+            <tr>
+                <td>Portalegre</td>
+                <td class="num">104 121</td>
+            </tr>
+
+            <tr>
+                <td>######</td>
+                <td class="num">000 000</td>
+            </tr>
+            <tr>
+                <td>######</td>
+                <td class="num">000 000</td>
+            </tr>
+            <tr>
+                <td>######</td>
+                <td class="num">000 000</td>
+            </tr>
+            <tr>
+                <td>######</td>
+                <td class="num">000 000</td>
+            </tr>
+            <tr>
+                <td>######</td>
+                <td class="num">000 000</td>
+            </tr>
+            <tr>
+                <td>######</td>
+                <td class="num">000 000</td>
+            </tr>
+            
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">Total</th> <!-- th - Titulo -->
+                <td class="num"><strong>10 467 366</strong></td> <!-- td - Dado -->
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam officiis omnis quam molestiae doloremque tempora architecto ea quia magnam perspiciatis, laboriosam corrupti ex a commodi iusto minima deserunt neque. Quasi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat eveniet suscipit rerum assumenda dolorem molestiae, excepturi perferendis quasi quo praesentium deleniti unde numquam dicta soluta libero optio odit magni saepe? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis labore reiciendis tempora ea deserunt a iste quae molestiae rerum, saepe tenetur quidem perspiciatis minus, eveniet eos. Accusantium illo delectus dolor? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus esse impedit distinctio labore sit, deserunt illum neque, omnis praesentium perferendis velit aliquam, animi at quos quas numquam provident totam est.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam officiis omnis quam molestiae doloremque tempora architecto ea quia magnam perspiciatis, laboriosam corrupti ex a commodi iusto minima deserunt neque. Quasi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat eveniet suscipit rerum assumenda dolorem molestiae, excepturi perferendis quasi quo praesentium deleniti unde numquam dicta soluta libero optio odit magni saepe? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis labore reiciendis tempora ea deserunt a iste quae molestiae rerum, saepe tenetur quidem perspiciatis minus, eveniet eos. Accusantium illo delectus dolor? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus esse impedit distinctio labore sit, deserunt illum neque, omnis praesentium perferendis velit aliquam, animi at quos quas numquam provident totam est.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam officiis omnis quam molestiae doloremque tempora architecto ea quia magnam perspiciatis, laboriosam corrupti ex a commodi iusto minima deserunt neque. Quasi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat eveniet suscipit rerum assumenda dolorem molestiae, excepturi perferendis quasi quo praesentium deleniti unde numquam dicta soluta libero optio odit magni saepe? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis labore reiciendis tempora ea deserunt a iste quae molestiae rerum, saepe tenetur quidem perspiciatis minus, eveniet eos. Accusantium illo delectus dolor? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus esse impedit distinctio labore sit, deserunt illum neque, omnis praesentium perferendis velit aliquam, animi at quos quas numquam provident totam est.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam officiis omnis quam molestiae doloremque tempora architecto ea quia magnam perspiciatis, laboriosam corrupti ex a commodi iusto minima deserunt neque. Quasi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat eveniet suscipit rerum assumenda dolorem molestiae, excepturi perferendis quasi quo praesentium deleniti unde numquam dicta soluta libero optio odit magni saepe? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis labore reiciendis tempora ea deserunt a iste quae molestiae rerum, saepe tenetur quidem perspiciatis minus, eveniet eos. Accusantium illo delectus dolor? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus esse impedit distinctio labore sit, deserunt illum neque, omnis praesentium perferendis velit aliquam, animi at quos quas numquam provident totam est.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam officiis omnis quam molestiae doloremque tempora architecto ea quia magnam perspiciatis, laboriosam corrupti ex a commodi iusto minima deserunt neque. Quasi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat eveniet suscipit rerum assumenda dolorem molestiae, excepturi perferendis quasi quo praesentium deleniti unde numquam dicta soluta libero optio odit magni saepe? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis labore reiciendis tempora ea deserunt a iste quae molestiae rerum, saepe tenetur quidem perspiciatis minus, eveniet eos. Accusantium illo delectus dolor? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus esse impedit distinctio labore sit, deserunt illum neque, omnis praesentium perferendis velit aliquam, animi at quos quas numquam provident totam est.</p>
+</body>
+</html>
