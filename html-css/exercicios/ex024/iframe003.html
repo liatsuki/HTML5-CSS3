@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+        }
+
+        iframe#ecra {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi exercitationem maiores suscipit quo eos inventore, officiis dolores autem omnis ut tenetur aut dignissimos quod ipsum ab, doloribus alias enim nam.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In nam eos similique assumenda nostrum temporibus reiciendis dicta labore, est a atque libero earum dignissimos amet obcaecati impedit, quibusdam laboriosam maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, similique! Eos tenetur nam quos laborum dicta dolorum vitae, vel enim perferendis soluta? Quam soluta tempore eius quod dignissimos eveniet minima?</p>
+
+    <iframe id="ecra" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In nam eos similique assumenda nostrum temporibus reiciendis dicta labore, est a atque libero earum dignissimos amet obcaecati impedit, quibusdam laboriosam maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, similique! Eos tenetur nam quos laborum dicta dolorum vitae, vel enim perferendis soluta? Quam soluta tempore eius quod dignissimos eveniet minima?</p><img src='imagens/pattern003.png'>">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda amet, esse quis labore dolores consequuntur libero exercitationem, excepturi natus ipsum optio? Exercitationem saepe nobis, in est tenetur tempora ullam suscipit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat placeat quam architecto obcaecati voluptatum, nesciunt maxime quos numquam cumque doloremque non accusantium optio sequi, dolores illum? Ad aliquid amet laudantium?</p>
+</body>
+</html>
