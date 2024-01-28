@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+
+    <form action="registro.php" method="post" autocomplete="off"> 
+        <!-- 
+            autocomplete = para desligar o preenchimento automático
+            method = GET e POST - aparecer na barra de endereços
+                GET = quando os dados não forem sensiveis e/ou se quiser ter o link compartilhável. Tem um limite, só pode enviar até 3 000 bytes. Não usar em envios de fotos.
+                POST = dados mais sensiveis. Usar se tiver mais de 3 000 bytes e para envio de arquivos.
+        -->
+        <p><label for="inome">Nome:</label> <!-- etiqueta - O elemento <label> é usado para associar um rótulo descritivo a um elemento de formulário. Colocar sempre no <label> o (id). -->
+            <input type="text" name="nome" id="inome"></p> 
+             <!--
+                para HTML ou PHP é melhor (name), mas para JavaScript é mais útil o (id) e para uso do label
+                
+                name = nome do objecto - é utilizado para identificar os dados que serão enviados para o servidor quando o formulário for submetido.
+
+                id = identificador - utilizado para identificar exclusivamente um elemento na página. Colocar sempre no inicio da palavra o "i".
+            -->
+        <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="nome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+
+</body>
+</html>
