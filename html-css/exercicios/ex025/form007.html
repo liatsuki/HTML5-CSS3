@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="registro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iest">Distrito:</label>
+            <select name="estado" id="iest">
+
+                <option value="" selected>--- Escolha ---</option>
+
+                <optgroup label="Norte">
+                    <option value="Braga">Braga</option>
+                    <option value="Bragança">Bragança</option>
+                    <option value="Porto">Porto</option>
+                    <option value="VilaReal">Vila Real</option>
+                    <option value="VianaCastelo">Viana do Castelo</option>
+                </optgroup>
+                <optgroup label="Centro">
+                    <option value="Aveiro">Aveiro</option>
+                    <option value="Viseu">Viseu</option>
+                    <option value="Guarda">Guarda</option>
+                    <option value="Coimbra">Coimbra</option>
+                    <option value="CasteloBranco">Castelo Branco</option>
+                    <option value="Leiria">Leiria</option>
+                </optgroup>
+                <optgroup label="Lisboa">
+                    <option value="Lisboa">Lisboa</option>
+                    <option value="Setúbal">Setúbal</option>
+                </optgroup>
+                <optgroup label="Alentejo">
+                    <option value="Santarém">Santarém</option>
+                    <option value="Portalegre">Portalegre</option>
+                    <option value="Évora">Évora</option>
+                    <option value="Beja">Beja</option>
+                </optgroup>
+                <optgroup label="Algarve">
+                    <option value="Faro">Faro</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof"> 
+            <!-- mesmo em lista de opções, dá pra escrever outra opção se não tiver -->
+                <option value="ADM">Administrador</option>
+                <option value="CONT">Contabilista</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="PROF">Professor</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="imsg">Mensagem:</label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Sua mensagem aqui..."></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

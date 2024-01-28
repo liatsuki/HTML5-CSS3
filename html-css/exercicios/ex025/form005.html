@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="registro.php" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+            <!-- com o mesmo name só dá pra selecionar uma opção, apenas funciona no radio. Toda o radio tem que ter o mesmo name -->
+            <input type="radio" name="sexo" id="isxmas" value="M"> <label for="isxmas">Masculino</label> <br>
+            <input type="radio" name="sexo" id="isxfem" value="F" checked> <label for="isxfem">Feminino</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Desportos Favoritos</legend>
+            <input type="checkbox" name="despfut" id="idespfut"> <label for="idespfut">Futebol</label> <br>
+            <input type="checkbox" name="despbas" id="idespbas" checked> <label for="idespbas">Basquetebol</label> <br>
+            <input type="checkbox" name="despnat" id="idespnat"> <label for="idespnat">Natação</label> <br>
+            <input type="checkbox" name="despten" id="idespten"> <label for="idespten">Ténis</label>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
