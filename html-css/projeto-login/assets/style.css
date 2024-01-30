@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/* Palete de Cores
+    Verde: #49A09D
+    Roxo: #5F2C82
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html {
+    background-color: #5f2c82;
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+}
